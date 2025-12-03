@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day02/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 2">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day03/Day3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,7 @@
   "keyToString": {
     "Gradle.advent-of-code-2025 [:day01.Day1Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day02.Day2Kt.main()].executor": "Run",
+    "Gradle.advent-of-code-2025 [:day03.Day3Kt.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -78,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Day2Kt">
+  <component name="RunManager" selected="Kotlin.Day3Kt">
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.Day1Kt" />
       <module name="advent-of-code-2025.main" />
@@ -93,8 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Day3Kt" />
+      <module name="advent-of-code-2025.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day3Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
         <item itemvalue="Kotlin.Day1Kt" />
       </list>
@@ -116,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1764587469121</updated>
       <workItem from="1764587470045" duration="1932000" />
-      <workItem from="1764656106895" duration="2066000" />
+      <workItem from="1764656106895" duration="4049000" />
+      <workItem from="1764663963200" duration="635000" />
+      <workItem from="1764743417531" duration="2091000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <option name="closed" value="true" />
@@ -126,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764587958863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1764658343803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764658343803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
