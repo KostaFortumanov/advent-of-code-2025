@@ -10,4 +10,13 @@ fun readFileCharMatrix(day: Int): List<List<Char>> =
 
 fun <T> List<List<T>>.countGridEntries(predicate: (T) -> Boolean) = sumOf { it.count(predicate) }
 
+fun <T> List<T>.split(predicate: (T) -> Boolean): List<List<T>> =
+    fold(listOf(emptyList())) { acc, element ->
+        if (predicate(element)) {
+            acc + listOf(emptyList())
+        } else {
+            acc.dropLast(1) + listOf(acc.last() + element)
+        }
+    }
+
 fun Any?.println() = println(this)
