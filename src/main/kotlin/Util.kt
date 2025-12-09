@@ -19,4 +19,10 @@ fun <T> List<T>.split(predicate: (T) -> Boolean): List<List<T>> =
         }
     }
 
+fun <T> List<List<T>>.transpose(): List<List<T>> = List(first().size) { i -> List(size) { j -> this[j][i] } }
+
+fun String.integers() = Regex("-?\\d+").findAll(this).map { it.value.toInt() }.toList()
+
+fun String.longs() = Regex("-?\\d+").findAll(this).map { it.value.toLong() }.toList()
+
 fun Any?.println() = println(this)

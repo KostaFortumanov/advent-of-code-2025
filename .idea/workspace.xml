@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 4">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day05/Day5.kt" afterDir="false" />
+    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 5">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day06/Day6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Util.kt" afterDir="false" />
     </list>
@@ -65,9 +65,11 @@
     "Gradle.advent-of-code-2025 [:day03.Day3Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day04.Day4Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day05.Day5Kt.main()].executor": "Run",
+    "Gradle.advent-of-code-2025 [:day06.Day6Kt.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/kosta.fortumanov/advent-of-code-2024",
@@ -80,14 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Day5Kt">
-    <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Day1Kt" />
-      <module name="advent-of-code-2025.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day6Kt">
     <configuration name="Day2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.Day2Kt" />
       <module name="advent-of-code-2025.main" />
@@ -116,21 +111,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.Day6Kt" />
+      <module name="advent-of-code-2025.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day6Kt" />
         <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.Day4Kt" />
         <item itemvalue="Kotlin.Day3Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
-        <item itemvalue="Kotlin.Day1Kt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
       </set>
     </attachedChunks>
   </component>
@@ -145,7 +147,8 @@
       <workItem from="1764656106895" duration="4049000" />
       <workItem from="1764663963200" duration="635000" />
       <workItem from="1764743417531" duration="18990000" />
-      <workItem from="1764920868294" duration="1408000" />
+      <workItem from="1764920868294" duration="3131000" />
+      <workItem from="1765302095199" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <option name="closed" value="true" />
@@ -179,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764836873565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 5">
+      <option name="closed" value="true" />
+      <created>1764922282383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764922282383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,7 @@
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
     <MESSAGE value="Day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4" />
+    <MESSAGE value="Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
   </component>
 </project>
