@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 6">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day07/Day7.kt" afterDir="false" />
+    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 7">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/Day8.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     "Gradle.advent-of-code-2025 [:day05.Day5Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day06.Day6Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day07.Day7Kt.main()].executor": "Run",
+    "Gradle.advent-of-code-2025 [:day08.Day8Kt.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,14 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Day7Kt">
-    <configuration name="Day3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.Day3Kt" />
-      <module name="advent-of-code-2025.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day8Kt">
     <configuration name="Day4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.Day4Kt" />
       <module name="advent-of-code-2025.main" />
@@ -118,13 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.Day8Kt" />
+      <module name="advent-of-code-2025.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
         <item itemvalue="Kotlin.Day6Kt" />
         <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.Day4Kt" />
-        <item itemvalue="Kotlin.Day3Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,8 @@
       <workItem from="1764663963200" duration="635000" />
       <workItem from="1764743417531" duration="18990000" />
       <workItem from="1764920868294" duration="3131000" />
-      <workItem from="1765302095199" duration="4938000" />
+      <workItem from="1765302095199" duration="6548000" />
+      <workItem from="1765353301854" duration="7782000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <option name="closed" value="true" />
@@ -198,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765302671004</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 7">
+      <option name="closed" value="true" />
+      <created>1765307193992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765307193992</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +221,19 @@
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 5" />
     <MESSAGE value="Day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
+    <MESSAGE value="Day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="res.size == 1 &amp;&amp; res.first().size == 1000" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day08/Day8.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
