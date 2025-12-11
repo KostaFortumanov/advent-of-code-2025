@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 9 (slow 2min)">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day10/Day10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 10 part 1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,7 @@
     "Gradle.advent-of-code-2025 [:day08.Day8Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day09.Day9Kt.main()].executor": "Run",
     "Gradle.advent-of-code-2025 [:day10.Day10Kt.main()].executor": "Run",
+    "Gradle.advent-of-code-2025 [:day11.Day11Kt.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -85,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Day10Kt">
+  <component name="RunManager" selected="Kotlin.Day11Kt">
     <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.Day10Kt" />
       <module name="advent-of-code-2025.main" />
@@ -93,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.Day6Kt" />
+    <configuration name="Day11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.Day11Kt" />
       <module name="advent-of-code-2025.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
-        <item itemvalue="Kotlin.Day6Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1764920868294" duration="3131000" />
       <workItem from="1765302095199" duration="6548000" />
       <workItem from="1765353301854" duration="14506000" />
-      <workItem from="1765383195670" duration="11503000" />
+      <workItem from="1765383195670" duration="13886000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <option name="closed" value="true" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765451315146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day 10 part 1">
+      <option name="closed" value="true" />
+      <created>1765457049464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765457049464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +251,8 @@
     <MESSAGE value="Day 7" />
     <MESSAGE value="Day 8" />
     <MESSAGE value="Day 9 (slow 2min)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 9 (slow 2min)" />
+    <MESSAGE value="Day 10 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 10 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
