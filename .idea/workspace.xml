@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 7">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day08/Day8.kt" afterDir="false" />
+    <list default="true" id="691bdac9-c17d-43a2-b1c8-d7c95cb269b7" name="Changes" comment="Day 8">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day09/Day9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,40 +57,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.advent-of-code-2025 [:day01.Day1Kt.main()].executor": "Debug",
-    "Gradle.advent-of-code-2025 [:day02.Day2Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day03.Day3Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day04.Day4Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day05.Day5Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day06.Day6Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day07.Day7Kt.main()].executor": "Run",
-    "Gradle.advent-of-code-2025 [:day08.Day8Kt.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kosta.fortumanov/advent-of-code-2024",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/kosta.fortumanov/advent-of-code-2025/src/main/kotlin/Main.kt",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.advent-of-code-2025 [:day01.Day1Kt.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day02.Day2Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day03.Day3Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day04.Day4Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day05.Day5Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day06.Day6Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day07.Day7Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day08.Day8Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advent-of-code-2025 [:day09.Day9Kt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kosta.fortumanov/advent-of-code-2024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/kosta.fortumanov/advent-of-code-2025/src/main/kotlin/Main.kt&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.Day8Kt">
-    <configuration name="Day4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.Day4Kt" />
-      <module name="advent-of-code-2025.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Kotlin.Day9Kt">
     <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05.Day5Kt" />
       <module name="advent-of-code-2025.main" />
@@ -119,13 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.Day9Kt" />
+      <module name="advent-of-code-2025.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
         <item itemvalue="Kotlin.Day6Kt" />
         <item itemvalue="Kotlin.Day5Kt" />
-        <item itemvalue="Kotlin.Day4Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,8 @@
       <workItem from="1764743417531" duration="18990000" />
       <workItem from="1764920868294" duration="3131000" />
       <workItem from="1765302095199" duration="6548000" />
-      <workItem from="1765353301854" duration="7782000" />
+      <workItem from="1765353301854" duration="14506000" />
+      <workItem from="1765383195670" duration="6285000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <option name="closed" value="true" />
@@ -208,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765307193992</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 8">
+      <option name="closed" value="true" />
+      <created>1765365005743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765365005743</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +232,8 @@
     <MESSAGE value="Day 5" />
     <MESSAGE value="Day 6" />
     <MESSAGE value="Day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7" />
+    <MESSAGE value="Day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,6 +243,14 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day08/Day8.kt</url>
           <line>18</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day09/Day9.kt</url>
+          <line>30</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
