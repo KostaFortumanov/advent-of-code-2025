@@ -1,5 +1,9 @@
 package day10
 
+import com.microsoft.z3.Context
+import com.microsoft.z3.IntExpr
+import com.microsoft.z3.IntNum
+import com.microsoft.z3.Status
 import integers
 import println
 import readFileLines
@@ -15,10 +19,14 @@ fun main() {
     }
 
     part1(manuals).println()
+    part2(manuals).println()
 }
 
 private fun part1(manuals: List<Manual>) =
     manuals.sumOf { minButtonPresses(it) }
+
+private fun part2(manuals: List<Manual>) =
+    manuals.sumOf { solveJoltages(it) }
 
 private fun minButtonPresses(manual: Manual): Int {
     val visited = mutableMapOf<String, Int>()
@@ -41,6 +49,34 @@ private fun minButtonPresses(manual: Manual): Int {
 
     val start = List(manual.targetDiagram.length) { "." }.joinToString("")
     return minButtonPressesInner(start, 0)
+}
+
+private fun solveJoltages(config: Manual): Int = Context().use { ctx ->
+    val solver = ctx.mkOptimize()
+    val zero = ctx.mkInt(0)
+
+    val buttons = config.actions.indices
+        .map { ctx.mkIntConst("button#$it") }
+        .onEach { button -> solver.Add(ctx.mkGe(button, zero)) }
+        .toTypedArray()
+
+    config.joltages.forEachIndexed { counter, targetValue ->
+        val buttonsThatIncrement = config.actions
+            .withIndex()
+            .filter { (_, counters) -> counter in counters }
+            .map { buttons[it.index] }
+            .toTypedArray()
+        val target = ctx.mkInt(targetValue)
+        val sumOfPresses = ctx.mkAdd(*buttonsThatIncrement) as IntExpr
+        solver.Add(ctx.mkEq(sumOfPresses, target))
+    }
+
+    val presses = ctx.mkIntConst("presses")
+    solver.Add(ctx.mkEq(presses, ctx.mkAdd(*buttons)))
+    solver.MkMinimize(presses)
+
+    if (solver.Check() != Status.SATISFIABLE) error("No solution found for machine: $config.")
+    solver.model.evaluate(presses, false).let { it as IntNum }.int
 }
 
 private fun pressButton(currentPosition: String, button: Set<Int>): String =
